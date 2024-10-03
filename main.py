@@ -41,6 +41,54 @@
 #     print("Да")
 # else:
 #     print(road // 100 % 100 + road % 10, road //10 % 10)
-
-
-
+#
+#
+# tovars = input("Категория:")
+# if tovars == "продукты":
+#     print("Цена:")
+# else:
+#     print("Загляните в товары для дома!")
+# sell = int(input())
+# if sell < 100:
+#     print("Попробуйте нашу выпечку!")
+# elif sell > 500:
+#     print("Попробуйте экзотические фрукты")
+# else:
+#     print("как начсет орехов в шоколаде?")
+#
+#
+# first, second, third= float(input("Цена первого товара:")), float(input("Цена второго товара:")), float(input("Цена третьего товара:"))
+# if first > second and second > third:
+#     itogo = (first + second + third) / 3
+#     print("Акция!")
+#     print("К оплате:", itogo)
+# elif first < second and second < third:
+#     itogo = (first + second + third) / 2
+#     print("Акция!")
+#     print("К оплате:", itogo)
+# else:
+#     itogo = first + second + third
+#     print("К оплате:", itogo)
+#
+#
+# yesterday2, yesterday1 = int(input("Введите число покупателей за позавчера:")), int(input("Введите число покупателей за вчера:"))
+# if yesterday2 < yesterday1:
+#     today = yesterday1 + (yesterday1 - yesterday2)
+#     print("Сегодня магазин посетит:", today)
+# else:
+#     today = yesterday1 - (yesterday1 - yesterday2)
+#     print("Сегодня магазин посетит:", today)
+#
+#
+# year = int(input("Введите год:"))
+# if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+#     print("Год високосный")
+# else:
+#     print("Год невисокосный")
+#
+#
+# number = int(input())
+# if number % 2 == 0:
+#     print(number ** 2)
+# else:
+#     print("число нечетное")
